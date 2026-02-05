@@ -55,3 +55,30 @@ main {
 .recipe-card li {
     margin-bottom: 5px;
 }
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.controls button:hover {
+    background-color: #ffab91;
+}
+
+.controls button.active {
+    background-color: #ff7043;
+    color: white;
+}
