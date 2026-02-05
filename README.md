@@ -18,3 +18,5 @@ Open `index.html` in your browser to view the app.
 
 ## Author
 Aslah NP
+
+> Pull request created for assignment submission.
